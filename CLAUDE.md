@@ -35,6 +35,8 @@ Before creating new files or implementing functionality:
 4. Search for existing components, hooks, utilities, services, and constants.
 5. Reuse existing functionality where appropriate.
 6. Follow established repository patterns.
+7. Use `./` only for files in the same directory. If an import requires `../`, `../../`, or deeper traversal, use the `@/` absolute import alias instead.
+
 
 Do not immediately create new folders, abstractions, utilities, or components without checking whether something similar already exists.
 
