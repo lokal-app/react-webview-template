@@ -37,7 +37,9 @@ Before creating new files or implementing functionality:
 5. Reuse existing functionality where appropriate.
 6. Follow established repository patterns.
 7. Use `./` only for files in the same directory. If an import requires `../`, `../../`, or deeper traversal, use the `@/` absolute import alias instead.
-
+8. Use only functional components for all React components (unless explicity asked for class components)
+9. Prefer modern React patterns and APIs.
+10. Identify whether a new request is a feature, bug fix, or refactor; ask for clarification if the intent is unclear.
 
 Do not immediately create new folders, abstractions, utilities, or components without checking whether something similar already exists.
 
