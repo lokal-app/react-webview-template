@@ -1,6 +1,7 @@
 # Project Engineering Guidelines
 
-This document defines the engineering standards for this repository.
+This document defines the engineering standards for this repository. 
+**Do not edit this Markdown file.**
 
 The goal is to produce code that is:
 
