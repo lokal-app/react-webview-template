@@ -123,10 +123,10 @@ Use `kebab-case`.
 
 Examples:
 
-- `user-profile/`
-- `payment-history/`
-- `chat-feature/`
-- `account-settings/`
+* `user-profile/`
+* `payment-history/`
+* `chat-feature/`
+* `account-settings/`
 
 ## React Component Files
 
@@ -134,9 +134,9 @@ Use `kebab-case`.
 
 Examples:
 
-- `user-profile.jsx`
-- `payment-history.jsx`
-- `chat-message.jsx`
+* `user-profile.jsx`
+* `payment-history.jsx`
+* `chat-message.jsx`
 
 The filename should clearly describe the primary component.
 
@@ -146,19 +146,20 @@ Use `PascalCase`.
 
 Examples:
 
-- `UserProfile`
-- `PaymentHistory`
-- `ChatMessage`
+* `UserProfile`
+* `PaymentHistory`
+* `ChatMessage`
 
 ## Hooks
 
-Use `camelCase` and always start with `use`.
+Use `kebab-case` for hook filenames and `camelCase` for hook names. Hook names must always start with `use`.
 
-Examples:
+Examples of hook filenames:
 
-- `useUserProfile.js`
-- `usePaymentHistory.js`
-- `useChat.js`
+* `use-user-profile.js`
+* `use-payment-history.js`
+* `use-chat.js`
+* `use-debounce.jsx`
 
 Examples of hook names:
 
@@ -166,9 +167,15 @@ Examples of hook names:
 useUserProfile()
 usePaymentHistory()
 useChat()
+useDebounce()
 ```
 
----
+The hook filename and hook name should follow their respective naming conventions.
+
+For example:
+
+* **Filename:** `use-debounce.jsx`
+* **Hook name:** `useDebounce`
 
 # 5. Dependencies and Libraries
 
